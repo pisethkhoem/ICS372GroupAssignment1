@@ -1,7 +1,8 @@
 package theatersystem;
 
 /**
- * The main class for the theater project.
+ * The main class for the theater project. Accepts commands from the command
+ * line and displays relevant information.
  * 
  * @author Daniel Clark
  * @author Jared Johnson
@@ -15,6 +16,7 @@ public class TheaterSystem {
      */
     public static void main(String[] args) {
         System.out.print("You successfully got our git project wooo!");
+ 
     }
 
 }
