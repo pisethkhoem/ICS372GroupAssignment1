@@ -397,9 +397,9 @@ public class UserInterface {
     }
     
     /**
-     * Method to be called for displaying shows.
-     * Prompts the user for the appropriate values and
-     * uses the appropriate Theater method for displaying shows.
+     * Method to be called for displaying all shows.
+     * Uses the appropriate Theater method for retrieving clients
+     * and displays their respective show names and dates.
      */
     public void getShows() {
         Iterator clientResult = theater.getClients();
